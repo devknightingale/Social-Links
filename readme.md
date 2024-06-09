@@ -51,6 +51,6 @@ I want to learn more about accessibility guidelines and how to structure my HTML
 ## Author
 
 - Website - [Kate Roland](https://github.com/devknightingale)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/devknightingale)
+- Frontend Mentor - [@devknightingale](https://www.frontendmentor.io/profile/devknightingale)
 
 ## Acknowledgments
