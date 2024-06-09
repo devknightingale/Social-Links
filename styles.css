@@ -1,0 +1,95 @@
+:root { 
+    --green: hsl(75, 94%, 57%); /* Primary - for location */ 
+    --white: hsl(0, 0%, 100%);  /* Text color */
+    --grey: hsl(0, 0%, 20%); /* For buttons */
+    --darkgrey: hsl(0, 0%, 12%); /* For card */
+    --black: hsl(0, 0%, 8%); /* background color */ 
+}
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: var(--black); 
+    font-family: "Inter", sans-serif;
+
+}
+body p { 
+    font-size: 14px; 
+    color: var(--white); 
+    text-align: center; 
+    font-weight: 300; 
+}
+
+.container { 
+    background-color: var(--darkgrey); 
+    width: 400px; 
+    height: 650px;
+    display: flex; 
+    flex-direction: column; 
+    margin: 20vh auto; 
+    border-radius: 10px; 
+    align-items: center; 
+}
+
+.nav-container { 
+    display: flex; 
+    flex-direction: column; 
+    height: 100%; 
+    width: 80%; 
+    margin: auto; 
+}
+.nav-button { 
+    background-color: var(--grey);
+    padding: 15px; 
+    margin-bottom: 15px;
+    border-radius: 10px;  
+    text-align: center; 
+    font-size: 14px; 
+    font-weight: 600; 
+}
+
+a { 
+    text-decoration: none; 
+    color: var(--white); 
+
+}
+.nav-button:hover { 
+    background-color: var(--green); 
+    color: var(--black);
+}
+.bio-desc { 
+    margin-top: 7%; 
+}
+h1 { 
+    color: var(--white); 
+    font-size: 24px; 
+    text-align: center; 
+    font-weight: 600; 
+    margin-bottom: -5px; 
+    padding-bottom: 5px; 
+}
+h2 { 
+    color: var(--green); 
+    font-size: 14px; 
+    text-align: center; 
+    font-weight: 600; 
+}
+.card { 
+    position: relative; 
+    top: 5%; 
+    width: 100%; 
+}
+.bio img { 
+    margin-top: 5%; 
+    width: 90px; 
+    border-radius: 90px; 
+}
+.bio-picture {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+}
+.attribution { 
+    color: white; 
+}
